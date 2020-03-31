@@ -310,3 +310,131 @@ footer {
   footer .footer-content ul a {
     color: #e9e9e9;
   }
+
+  
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+        .container {
+            max-width: 90%;
+        }
+
+        .top-nav {
+            display: block;
+        }
+
+        .logo{
+            text-align: center;
+            margin: auto;
+        }
+
+        .top-nav ul {
+            margin: 20px auto 0;
+            width: 80%;
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr;
+            padding-bottom: 84px;
+        }
+
+        .hero-copy {
+            margin: auto;
+            text-align: center;
+        }
+
+        .hero-image{
+            text-align: center;
+            width:100%;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            /*grid-gap: 15px; */
+        }
+
+        .blog-posts {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 30px;
+            padding-top: 50px;
+        }
+
+        .blog-posts {
+            margin: auto;
+            text-align: center;
+        }
+
+        .footer {
+            padding: 10px 0;
+
+        }
+        
+          .footer-content {
+            flex-direction: column;
+            margin: auto;
+            text-align: center;
+          }
+        
+          footer .footer-content ul {
+            color: #e9e9e9;
+            margin: 10px auto 0;
+            width: 50%;
+            display: flex;
+          }
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+    }
